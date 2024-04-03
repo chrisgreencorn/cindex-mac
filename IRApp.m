@@ -41,6 +41,6 @@
 	[super terminate:sender];
 }
 - (void)orderFrontStandardAboutPanel:(id)sender {
-	[SplashWindowController showWithButton:YES];
+//	[SplashWindowController showWithButton:YES];
 }
 @end

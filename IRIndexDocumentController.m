@@ -125,7 +125,7 @@ NSMutableDictionary * _abbreviations;
 //	NSApplicationPresentationOptions opt = [NSApplication sharedApplication].currentSystemPresentationOptions;
 //	[NSApplication sharedApplication].presentationOptions = opt & ~NSApplicationPresentationFullScreen;
 	
-	[SplashWindowController showWithButton:NO];
+//	[SplashWindowController showWithButton:NO];
 	abbrevs = [NSData dataWithContentsOfFile:[[NSUserDefaults standardUserDefaults] objectForKey:CIAbbreviations]];
 	if (abbrevs)
 		[self setAbbreviations:[NSKeyedUnarchiver unarchiveObjectWithData:abbrevs]];

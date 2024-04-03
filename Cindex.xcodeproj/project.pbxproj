@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -68,7 +68,6 @@
 		6E0904701ECF7C5E00C094BD /* stationery_old.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E889462138C7CBD00436A05 /* stationery_old.icns */; };
 		6E0904711ECF7C5E00C094BD /* stylesheet_old.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6E88946C138C7F5200436A05 /* stylesheet_old.icns */; };
 		6E0904721ECF7C5E00C094BD /* Standard Tags.cxtg in Resources */ = {isa = PBXBuildFile; fileRef = 6E5EE4211392C37D00CC7334 /* Standard Tags.cxtg */; };
-		6E0904731ECF7C5E00C094BD /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2E7B01395B26C0027A5EB /* dsa_pub.pem */; };
 		6E0904741ECF7C5E00C094BD /* FlipStringsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E69C37E13C46AA8002ACBDA /* FlipStringsController.xib */; };
 		6E0904771ECF7C5E00C094BD /* IRIndexDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* IRIndexDocument.m */; settings = {ATTRIBUTES = (); }; };
 		6E0904781ECF7C5E00C094BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -189,7 +188,6 @@
 		6E0905031ECF7C6E00C094BD /* HeadFootController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC017470791BCB4005695DD /* HeadFootController.nib */; };
 		6E0905041ECF7C6E00C094BD /* MarginColumnController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC0174A0791BCDE005695DD /* MarginColumnController.nib */; };
 		6E0905051ECF7C6E00C094BD /* CompressController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC018100791C66C005695DD /* CompressController.nib */; };
-		6E0905061ECF7C6E00C094BD /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2E7B01395B26C0027A5EB /* dsa_pub.pem */; };
 		6E0905071ECF7C6E00C094BD /* ReconcileController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC018130791C6CE005695DD /* ReconcileController.nib */; };
 		6E0905081ECF7C6E00C094BD /* GenerateRefsController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC0181A0791C735005695DD /* GenerateRefsController.nib */; };
 		6E0905091ECF7C6E00C094BD /* AlterRefsController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC0181D0791C777005695DD /* AlterRefsController.nib */; };
@@ -349,7 +347,6 @@
 		6E0905D81ECF7C7B00C094BD /* HeadFootController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC017470791BCB4005695DD /* HeadFootController.nib */; };
 		6E0905D91ECF7C7B00C094BD /* MarginColumnController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC0174A0791BCDE005695DD /* MarginColumnController.nib */; };
 		6E0905DA1ECF7C7B00C094BD /* CompressController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC018100791C66C005695DD /* CompressController.nib */; };
-		6E0905DB1ECF7C7B00C094BD /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 6EA2E7B01395B26C0027A5EB /* dsa_pub.pem */; };
 		6E0905DC1ECF7C7B00C094BD /* ReconcileController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC018130791C6CE005695DD /* ReconcileController.nib */; };
 		6E0905DD1ECF7C7B00C094BD /* GenerateRefsController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC0181A0791C735005695DD /* GenerateRefsController.nib */; };
 		6E0905DE1ECF7C7B00C094BD /* AlterRefsController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 6EC0181D0791C777005695DD /* AlterRefsController.nib */; };
@@ -1659,7 +1656,8 @@
 		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1000;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1530;
 			};
 			buildConfigurationList = 6E863AB3085546A200328DE9 /* Build configuration list for PBXProject "Cindex" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -1755,7 +1753,6 @@
 				6E0904701ECF7C5E00C094BD /* stationery_old.icns in Resources */,
 				6E0904711ECF7C5E00C094BD /* stylesheet_old.icns in Resources */,
 				6E0904721ECF7C5E00C094BD /* Standard Tags.cxtg in Resources */,
-				6E0904731ECF7C5E00C094BD /* dsa_pub.pem in Resources */,
 				6E0904741ECF7C5E00C094BD /* FlipStringsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1787,7 +1784,6 @@
 				6E0905031ECF7C6E00C094BD /* HeadFootController.nib in Resources */,
 				6E0905041ECF7C6E00C094BD /* MarginColumnController.nib in Resources */,
 				6E0905051ECF7C6E00C094BD /* CompressController.nib in Resources */,
-				6E0905061ECF7C6E00C094BD /* dsa_pub.pem in Resources */,
 				6E0905071ECF7C6E00C094BD /* ReconcileController.nib in Resources */,
 				6E0905081ECF7C6E00C094BD /* GenerateRefsController.nib in Resources */,
 				6E0905091ECF7C6E00C094BD /* AlterRefsController.nib in Resources */,
@@ -1863,7 +1859,6 @@
 				6E0905D81ECF7C7B00C094BD /* HeadFootController.nib in Resources */,
 				6E0905D91ECF7C7B00C094BD /* MarginColumnController.nib in Resources */,
 				6E0905DA1ECF7C7B00C094BD /* CompressController.nib in Resources */,
-				6E0905DB1ECF7C7B00C094BD /* dsa_pub.pem in Resources */,
 				6E0905DC1ECF7C7B00C094BD /* ReconcileController.nib in Resources */,
 				6E0905DD1ECF7C7B00C094BD /* GenerateRefsController.nib in Resources */,
 				6E0905DE1ECF7C7B00C094BD /* AlterRefsController.nib in Resources */,
@@ -2637,11 +2632,12 @@
 		6E0904EA1ECF7C5E00C094BD /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2662,6 +2658,7 @@
 					"$(PROJECT_DIR)/macports/ICU/lib",
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2673,11 +2670,12 @@
 		6E0904EB1ECF7C5E00C094BD /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2691,6 +2689,7 @@
 					"$(PROJECT_DIR)/macports/ICU/lib",
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2704,11 +2703,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2721,6 +2721,7 @@
 					"$(PROJECT_DIR)/macports/ICU/lib",
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2735,6 +2736,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sparkle",
@@ -2765,6 +2767,7 @@
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 					"$(PROJECT_DIR)/Sparkle/Sparkle.framework/Versions/A",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2779,6 +2782,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sparkle",
@@ -2795,6 +2799,7 @@
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 					"$(PROJECT_DIR)/Sparkle/Sparkle.framework/Versions/A",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2809,6 +2814,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sparkle",
@@ -2822,6 +2828,7 @@
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 					"$(PROJECT_DIR)/Sparkle/Sparkle.framework/Versions/A",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2836,6 +2843,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sparkle",
@@ -2864,6 +2872,7 @@
 					"$(PROJECT_DIR)/macports/ICU/lib",
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64.student;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2878,6 +2887,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sparkle",
@@ -2892,6 +2902,7 @@
 					"$(PROJECT_DIR)/macports/ICU/lib",
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64.student;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2906,6 +2917,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4.2.5;
+				DEAD_CODE_STRIPPING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Sparkle",
@@ -2918,6 +2930,7 @@
 					"$(PROJECT_DIR)/macports/ICU/lib",
 					"$(PROJECT_DIR)/macports/hunspell/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 4.2.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64.student;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2944,13 +2957,16 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = Sparkle;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2999,12 +3015,15 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = Sparkle;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -3024,7 +3043,6 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-lc++";
 				SDKROOT = macosx;
-				STRIP_INSTALLED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = "macports/**";
 				VALID_ARCHS = x86_64;
 			};
@@ -3048,12 +3066,15 @@
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = Sparkle;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
